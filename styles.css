@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Red+Hat+Display&display=swap');
+body{
+    background-color: lightblue;
+    padding-top: 60px;
+    font-family: Red Hat Display,sans-serif;
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 220px;
+    
+}
+header img{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: white;
+}
+h1{
+    margin-top: 0px;
+}
+.desc{
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+.bt{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; align-self: start;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.bt:hover{
+    background-color: #eee;
+}
+.left{
+    display: flex;
+}
+.plan-prix{
+    margin-top:3px;
+    padding-top: 3px;
+    padding-left: 16px;
+}
+.right{
+    padding-top: 16px;
+}
+h5{
+    margin-top: 1px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight:bold;
+}
+h6{
+    margin-top: 7px;
+    font-size: 13px;
+    color: #999;
+
+}
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.bt1,.bt2{
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+.bt1{
+    margin-bottom: 10px;
+    background-color: #2255aa;
+    color: white;
+    font-weight: bold;
+}
+.bt1:hover{
+    background-color: blue;
+}
+.bt2{
+    margin-top: 10px;
+    background-color: white;
+    color: #999;
+    font-weight: bold;
+}
+.bt2:hover{
+    background-color: #ddd;
+}
